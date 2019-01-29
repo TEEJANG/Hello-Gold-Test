@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27094C3B49F44116FDE9B51B /* Pods_HelloGoldRegister.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848F36B90A3D08619E703574 /* Pods_HelloGoldRegister.framework */; };
 		DB4E09A021FC03E5003312ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4E099F21FC03E5003312ED /* AppDelegate.swift */; };
 		DB4E09A221FC03E5003312ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4E09A121FC03E5003312ED /* ViewController.swift */; };
 		DB4E09A521FC03E5003312ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4E09A321FC03E5003312ED /* Main.storyboard */; };
-		DB4E09A721FC03E6003312ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4E09A621FC03E6003312ED /* Assets.xcassets */; };
 		DB4E09AA21FC03E6003312ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4E09A821FC03E6003312ED /* LaunchScreen.storyboard */; };
+		DB567B2A21FC30A80081270F /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB567B2921FC30A80081270F /* DashboardViewController.swift */; };
+		DBB496AE21FC18F9005342D3 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB496AD21FC18F9005342D3 /* UserInfo.swift */; };
+		DBFFDF6F21FC153D00289972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFFDF6E21FC153D00289972 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		019B3FB30088B06D46AD865B /* Pods-HelloGoldRegister.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloGoldRegister.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloGoldRegister/Pods-HelloGoldRegister.debug.xcconfig"; sourceTree = "<group>"; };
+		49F8E9F39E9A6B149FB0F998 /* Pods-HelloGoldRegister.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloGoldRegister.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloGoldRegister/Pods-HelloGoldRegister.release.xcconfig"; sourceTree = "<group>"; };
+		848F36B90A3D08619E703574 /* Pods_HelloGoldRegister.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloGoldRegister.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4E099C21FC03E5003312ED /* HelloGoldRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGoldRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4E099F21FC03E5003312ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB4E09A121FC03E5003312ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB4E09A421FC03E5003312ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DB4E09A621FC03E6003312ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB4E09A921FC03E6003312ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB4E09AB21FC03E6003312ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB567B2921FC30A80081270F /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		DBB496AD21FC18F9005342D3 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		DBFFDF6E21FC153D00289972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27094C3B49F44116FDE9B51B /* Pods_HelloGoldRegister.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		408485D44CA21115C4776577 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				019B3FB30088B06D46AD865B /* Pods-HelloGoldRegister.debug.xcconfig */,
+				49F8E9F39E9A6B149FB0F998 /* Pods-HelloGoldRegister.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		884A04913A9CB274E450A014 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848F36B90A3D08619E703574 /* Pods_HelloGoldRegister.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB4E099321FC03E5003312ED = {
 			isa = PBXGroup;
 			children = (
 				DB4E099E21FC03E5003312ED /* HelloGoldRegister */,
 				DB4E099D21FC03E5003312ED /* Products */,
+				408485D44CA21115C4776577 /* Pods */,
+				884A04913A9CB274E450A014 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +82,14 @@
 		DB4E099E21FC03E5003312ED /* HelloGoldRegister */ = {
 			isa = PBXGroup;
 			children = (
+				DBB496AD21FC18F9005342D3 /* UserInfo.swift */,
 				DB4E099F21FC03E5003312ED /* AppDelegate.swift */,
 				DB4E09A121FC03E5003312ED /* ViewController.swift */,
 				DB4E09A321FC03E5003312ED /* Main.storyboard */,
-				DB4E09A621FC03E6003312ED /* Assets.xcassets */,
 				DB4E09A821FC03E6003312ED /* LaunchScreen.storyboard */,
 				DB4E09AB21FC03E6003312ED /* Info.plist */,
+				DBFFDF6E21FC153D00289972 /* Assets.xcassets */,
+				DB567B2921FC30A80081270F /* DashboardViewController.swift */,
 			);
 			path = HelloGoldRegister;
 			sourceTree = "<group>";
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB4E09AE21FC03E6003312ED /* Build configuration list for PBXNativeTarget "HelloGoldRegister" */;
 			buildPhases = (
+				DB417BA680BA535547A7153C /* [CP] Check Pods Manifest.lock */,
 				DB4E099821FC03E5003312ED /* Sources */,
 				DB4E099921FC03E5003312ED /* Frameworks */,
 				DB4E099A21FC03E5003312ED /* Resources */,
+				552D2BEE1B17350FDC9DFCBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,12 +155,59 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB4E09AA21FC03E6003312ED /* LaunchScreen.storyboard in Resources */,
-				DB4E09A721FC03E6003312ED /* Assets.xcassets in Resources */,
+				DBFFDF6F21FC153D00289972 /* Assets.xcassets in Resources */,
 				DB4E09A521FC03E5003312ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		552D2BEE1B17350FDC9DFCBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelloGoldRegister/Pods-HelloGoldRegister-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloGoldRegister/Pods-HelloGoldRegister-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB417BA680BA535547A7153C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloGoldRegister-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB4E099821FC03E5003312ED /* Sources */ = {
@@ -136,7 +215,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB4E09A221FC03E5003312ED /* ViewController.swift in Sources */,
+				DBB496AE21FC18F9005342D3 /* UserInfo.swift in Sources */,
 				DB4E09A021FC03E5003312ED /* AppDelegate.swift in Sources */,
+				DB567B2A21FC30A80081270F /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +361,7 @@
 		};
 		DB4E09AF21FC03E6003312ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019B3FB30088B06D46AD865B /* Pods-HelloGoldRegister.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +379,7 @@
 		};
 		DB4E09B021FC03E6003312ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F8E9F39E9A6B149FB0F998 /* Pods-HelloGoldRegister.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
